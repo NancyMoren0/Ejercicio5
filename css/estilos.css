@@ -3,20 +3,24 @@
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.u{
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
 table{
     width: 80%;
     border-collapse: separate;
     border: 3px solid darkmagenta;
 }
 th{
-    background-color: cadetblue;
+    background-color: rgb(118, 95, 160);
     color: antiquewhite;
 }td{
     padding: 10px;
     text-align: center;
 }
 tr:nth-child(odd){ /*odd impares, even pares*/
-    background-color: aqua;
+    background-color: rgba(255, 0, 242, 0.336);
 }
 .contenedor{
     display: flex;
